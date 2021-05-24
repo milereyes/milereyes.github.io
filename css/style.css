@@ -1910,9 +1910,15 @@ h1, h2, h3, h4, h5,
 
 .texto_info{
     padding:50px 30px 0;
-    position: absolute;
-    z-index: 1;
+    background-color:#2A354E ;
     color: #ffffff;
+}
+
+.texto_infoCarrusel{
+  padding:50px 30px 0;
+  position: absolute;
+  z-index: 1;
+  color: #ffffff;
 }
 
 .texto_info h3{

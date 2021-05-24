@@ -1750,6 +1750,12 @@ h1, h2, h3, h4, h5,
   border: 1px solid white;
   margin: 0 30px;
 }
+
+.btn_verProyectosM{
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}
 .img_info{
   padding: 0;
 }
@@ -1903,8 +1909,9 @@ h1, h2, h3, h4, h5,
 }
 
 .texto_info{
-    padding: 150px 50px 50px;
-    background-color: #2A354E;
+    padding:50px 30px 0;
+    position: absolute;
+    z-index: 1;
     color: #ffffff;
 }
 
@@ -1937,4 +1944,43 @@ summary{
 
 .carrusel__proyectos ul{
   padding: 0 35px 30px
+}
+
+@media (min-width: 575.99px) { 
+  .imgMobile{
+    display: none;
+  }
+}
+@media (max-width: 575.98px) { 
+  
+  .texto_info{
+    padding: 230px 0 0;
+  }
+  .texto_info h3, .politicas p{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .texto_info ul li{
+    font-size: 14px;
+  }
+  
+  .imgDesk{
+    display: none;
+  }
+  
+  .imgMobile{
+    display: block;
+  }
+
+  .politica_gestion{
+    padding: 70px 40px ;
+  }
+
+  .cards__1, .cards__4, 
+  .img_inspeccionTecnica,
+  .imgCoordinacion{
+  display: none;
+  }
+
 }

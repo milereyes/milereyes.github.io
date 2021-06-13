@@ -19,6 +19,7 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$cig:     #2A354E !default;
 
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -48,6 +49,7 @@ $yellow:  #f89d13 !default;
 $green:   #8bc34a !default;
 $teal:    #46ddb0 !default;
 $cyan:    #17a2b8 !default;
+$cig:     #2A354E !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -911,7 +913,7 @@ $breadcrumb-border-radius:          $border-radius !default;
 
 // Carousel
 
-$carousel-control-color:            $white !default;
+$carousel-control-color:            $cig !default;
 $carousel-control-width:            15% !default;
 $carousel-control-opacity:          .5 !default;
 

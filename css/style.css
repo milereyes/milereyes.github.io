@@ -550,7 +550,6 @@ h1, h2, h3, h4, h5,
 
 /* Blocks */
 .site-blocks-cover {
-  background-image: url("/images/banner.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1719,9 +1718,8 @@ h1, h2, h3, h4, h5,
         background-size: cover;
       }
 
-      .cards__info{
+      .cards__info .card{
         border-top: 1px solid #eeee;
-        padding-top: 30px;
       }
 
       .politicas{
@@ -1834,6 +1832,9 @@ h1, h2, h3, h4, h5,
     border: #009FE3;
 }
 
+.card-body{
+  padding: 23px;
+}
 .btn-send{
   background-color: #2A354E;
   border-radius: 0;
@@ -1941,7 +1942,7 @@ summary{
 }
 
 .titulo_proyectos{
-  margin: 180px 50px;
+  margin:50px;
 }
 
 .carrusel__proyectos h3{
@@ -1959,9 +1960,6 @@ summary{
 }
 @media (max-width: 575.98px) { 
   
-  .texto_info{
-    padding: 230px 0 0;
-  }
   .texto_info h3, .politicas p{
     font-size: 16px;
     text-align: center;
@@ -1989,4 +1987,298 @@ summary{
   display: none;
   }
 
+}
+
+
+
+
+
+.customer-logos {
+  background-color:lightgrey;
+}
+
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.site-footer{
+  background-color: #2A354E;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 12px
+}
+
+.site-footer h4{
+  font-size: 18px;
+}
+
+li{
+  color: #FFFFFF;
+}
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul{
+  padding: 0;
+}
+
+.footerLogo{
+  padding: 50px;
+}
+
+.menu, .rrss{
+  padding: 30px 80px;
+}
+
+.datosContacto li img{
+  width: 16px;
+  margin: 0 10px;
+
+}
+
+.datosContacto li, .rrss li{
+  list-style: none;
+}
+
+.textoDatos{
+  font-size: 10px;
+  padding-left: 50px;
+}
+
+.rrss li img{
+  width: 16px;
+  margin: 0 10px;
+}
+
+.rrss ul{
+  display: inline-flex;
+  padding:0;
+}
+
+.proyectosDestacados{
+  padding: 40px 0;
+  margin: 20px 0;
+}
+
+.proyectosDestacados .card{
+  height: auto;
+  overflow: hidden;
+  background-color: #2A354E;
+}
+
+.proyectosDestacados .card .card-title{
+ color:#ffffff;
+}
+
+.proyectosDestacados .card .card-text{
+  font-size: 14px;
+  color:#ffffff;
+}
+
+.proyectosDestacados .card .card-img-top{
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+.proyectosDestacados .card .card-img-top:hover{
+  transform: scale(1.08);
+  z-index: 1;
+}
+
+.carousel-caption{
+  position: absolute;
+  bottom: 95px;
+  color: #fff;
+  text-align: left;
+  width: 50%;
+  height: 50%;
+  background-color: #2A354E90;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.navbar{
+  background-color: #2A354E;
+  overflow: hidden;
+}
+
+.navbar ul li a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 3px solid #009FE3;
+}
+
+.navbar ul li a.active {
+  border-bottom: 3px solid #009FE3;
+}
+
+@media (max-width: 992px) { 
+  .carousel-caption{
+    height:70%;
+    bottom: 30px;
+  }
+  .carousel-caption h1, .carousel-caption p{
+    font-size: 14px;
+  }
+  .btn_verProyectos{
+    width:150px;
+    height: 20px;
+    font-size: 10px;
+  }
+  
+  .btn__mas{
+    margin: 0;
+  }
+
+  .texto_infoCarrusel{
+    padding: 230px 30px 0;
+  }
+
+  .texto_infoCarrusel h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .texto_infoCarrusel ul li{
+    font-size: 12px;
+  }
+
+  .texto_info{
+    padding: 20px;
+  }
+
+  .texto_info p{
+    padding: 0;
+  }
 }

@@ -39,36 +39,31 @@
       <div class="site-mobile-menu-body"></div>
     </div>
    
-    
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0"><img src="./images/logos/Frame.svg" alt=""></a></h1>
-          </div>
-
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="index.html#quienesSomos" class="nav-link">Quienes Somos</a></li>
-                <li><a href="#" class="nav-link">Servicios</a></li>
-                <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
-                <li><a href="index.html#contacto" class="nav-link">Contacto</a></li>
-              </ul>
-            </nav>
-          </div>
-
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"><img src="./images/logos/Frame.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#quienesSomos">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
-      
-    </header>
+    </nav>
 
   
     <div class="banner_servicios">
@@ -164,10 +159,44 @@
       <li>Establecer canales de comunicación con nuestros clientes, brindando información clara, oportuna, confiable y confidencial. </li>
       <li>Estar presente en todas las operaciones con un servicio estandarizado de inspección, verificando y capacitando, de forma periódica, a nuestros profesionales. Para lograr los compromisos de la presente política, esta es comunicada y entendida por todos los trabajadores de CYG Proyectos, además está disponible para todas las partes interesadas pertinentes de la organización. </li>
     </ul>
-  
   </section>
-    
 
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 footerLogo">
+          <img src="./images/logos/Frame.svg" alt="">
+        </div>
+        <div class="col-md-5 menu">
+          <h4>Menú</h4>
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html#quienesSomos"><li>Quienes Somos</li></a>
+            <a href="#"><li>Servicios</li></a>
+            <a href="proyectos.html"><li>Proyectos</li></a>
+            <a href="index.html#contacto"><li>Contacto</li></a>
+          </ul>
+        </div>
+        <div class="col-md-2 rrss">
+         <h4>Síguenos</h4>
+         <ul>
+           <a href=""><li><img src="./images/iconos/instagram.svg" alt=""></li></a>
+           <a href=""><li><img src="./images/iconos/facebook.svg" alt=""></li></a>
+           <a href=""><li><img src="./images/iconos/linkedin.svg" alt=""></li></a>
+         </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <ul class="datosContacto">
+            <li><img src="images/iconos/telephone.svg">123-456</li>
+            <li><img src="images/iconos/placeholder.svg">Dirección Av Falsa 123</li>
+          </ul>
+        <p class="textoDatos">Las imágenes que se muestran fueron elaboradas con fines ilustrativos y las dimensiones son aproximadas, no constituyendo necesariamente una representación exacta de la realidad. Su objetivo es mostrar una caracterización general del proyecto y no cada uno de sus detalles. Lo anterior se informa en virtud de lo señalado en el no 5 del artículo único de la ley no 19.472. Los precios indicados en las cotizaciones están sujetos a las variaciones normales de mercado.</p>
+        </div>
+      </div>
+    </div>        
+  </footer>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>

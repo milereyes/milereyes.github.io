@@ -1746,7 +1746,7 @@ h1, h2, h3, h4, h5,
   width: 226px;
   height: 42px;
   border: 1px solid white;
-  margin: 0 30px;
+  margin: 20px 30px;
 }
 
 .btn_verProyectosM{
@@ -1754,6 +1754,12 @@ h1, h2, h3, h4, h5,
   border-radius: 20px;
   border: 1px solid white;
 }
+
+.btn__mas{
+  padding: 0;
+  margin: 0;
+}
+
 .img_info{
   padding: 0;
 }
@@ -1909,6 +1915,10 @@ h1, h2, h3, h4, h5,
   font-size: 14px;
 }
 
+.caracteristicas_lista li{
+  color: grey;
+  font-size: 14px;
+}
 .texto_info{
     padding:50px 30px 0;
     background-color:#2A354E ;
@@ -1916,10 +1926,15 @@ h1, h2, h3, h4, h5,
 }
 
 .texto_infoCarrusel{
-  padding:50px 30px 0;
+  padding: 50px 50px 0 80px;
   position: absolute;
   z-index: 1;
   color: #ffffff;
+}
+
+.texto_infoCarrusel h3{
+  text-align: left;
+  padding: 0 20px 15px;
 }
 
 .texto_info h3{
@@ -2022,6 +2037,7 @@ summary{
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    padding-top:20px;
 }
 
 .slick-list
@@ -2126,7 +2142,7 @@ summary{
   color: #ffffff;
   margin-top: 30px;
   padding: 10px;
-  font-size: 12px
+  font-size: 14px
 }
 
 .site-footer h4{
@@ -2145,7 +2161,7 @@ li{
 }
 
 .footerLogo{
-  padding: 50px;
+  padding: 80px 50px 0;
 }
 
 .menu, .rrss{
@@ -2158,13 +2174,21 @@ li{
 
 }
 
+.rrss img{
+  width: 18px;
+  margin-bottom: 8px;
+  margin-left: 2px;
+}
+
 .datosContacto li, .rrss li{
   list-style: none;
 }
 
 .textoDatos{
-  font-size: 10px;
+  font-size: 14px;
   padding-left: 50px;
+  border-top:1px solid #FFFFFF;
+  padding-top:20px;
 }
 
 .rrss li img{
@@ -2209,11 +2233,11 @@ li{
 
 .carousel-caption{
   position: absolute;
-  bottom: 95px;
+  bottom: 200px;
   color: #fff;
   text-align: left;
   width: 50%;
-  height: 50%;
+  height:auto;
   background-color: #2A354E90;
   padding: 20px;
   border-radius: 3px;
@@ -2243,11 +2267,18 @@ li{
   border-bottom: 3px solid #009FE3;
 }
 
+.carousel-item img{
+  height: auto;
+}
+
 @media (max-width: 992px) { 
   .carousel-caption{
-    height:70%;
-    bottom: 30px;
+    height: auto;
+    bottom: 25px;
+    width: auto;
+    padding: 10px;
   }
+
   .carousel-caption h1, .carousel-caption p{
     font-size: 14px;
   }
@@ -2258,6 +2289,7 @@ li{
   }
   
   .btn__mas{
+    padding: 0;
     margin: 0;
   }
 

@@ -1975,6 +1975,9 @@ summary{
 }
 @media (max-width: 575.98px) { 
   
+  .carousel-indicators {
+    bottom: -8px;
+  }
   .texto_info h3, .politicas p{
     font-size: 16px;
     text-align: center;
